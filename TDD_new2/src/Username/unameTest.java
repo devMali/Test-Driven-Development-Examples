@@ -1,0 +1,47 @@
+package Username;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class unameTest {
+
+	UnameCase obj = new UnameCase();
+	@Test
+	public void test() {
+		assertTrue(obj.isValidUname("DevMali"));
+	}
+	
+	@Test
+	public void TestWithPercent()
+	{
+		//assertTrue(obj.isValidUname("Dev%Mali"));
+		assertTrue(obj.isValidUname("Dev111Mali"));
+	}
+	@Test
+	public void TestWithStar()
+	{
+		//assertTrue(obj.isValidUname("DevMali*"));
+		assertTrue(obj.isValidUname("DevendraMali"));
+	}
+	@Test
+	public void TestWithHash()
+	{
+		//assertTrue(obj.isValidUname("#DevMali"));
+		assertTrue(obj.isValidUname("DeVMAli"));
+	}
+	@Test
+	public void TestWithUpper()
+	{
+		//assertTrue(obj.isValidUname("DEVMALI")); //will give failure
+		//assertTrue(obj.isUpper("dEVmALI"));  not give failure
+		assertTrue(obj.isValidUname("DevMAli"));
+	}
+	@Test
+	public void TestPass()
+	{
+		//assertTrue(obj.isValidPass("DevMali"));
+		assertTrue(obj.isValidPass("D123Mali"));
+	}
+
+}
