@@ -19,13 +19,6 @@ public class unameTest {
 		assertTrue(obj.isValidUname("Dev111Mali"));
 	}
 	@Test
-	public void TestWithDollar()
-	{
-		//assertTrue(obj.isValidUname("Dev$Mali"));
-		assertTrue(obj.isValidUname("Dev111Mali"));
-	}
-
-	@Test
 	public void TestWithStar()
 	{
 		//assertTrue(obj.isValidUname("DevMali*"));

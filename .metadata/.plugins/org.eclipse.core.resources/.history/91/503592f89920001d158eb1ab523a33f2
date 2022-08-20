@@ -21,8 +21,8 @@ public class unameTest {
 	@Test
 	public void TestWithDollar()
 	{
-		//assertTrue(obj.isValidUname("Dev$Mali"));
-		assertTrue(obj.isValidUname("Dev111Mali"));
+		assertTrue(obj.isValidUname("Dev$Mali"));
+		//assertTrue(obj.isValidUname("Dev111Mali"));
 	}
 
 	@Test

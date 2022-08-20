@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="unameTest" project="TDD_username" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="Username.unameTest" time="0.001">
+    <testcase name="TestWithUpper" classname="Username.unameTest" time="0.001"/>
+    <testcase name="TestWithPercent" classname="Username.unameTest" time="0.0"/>
+    <testcase name="TestPass" classname="Username.unameTest" time="0.0"/>
+    <testcase name="TestWithHash" classname="Username.unameTest" time="0.0"/>
+    <testcase name="TestWithStar" classname="Username.unameTest" time="0.0"/>
+    <testcase name="test" classname="Username.unameTest" time="0.0"/>
+    <testcase name="TestWithDollar" classname="Username.unameTest" time="0.0"/>
+  </testsuite>
+</testrun>

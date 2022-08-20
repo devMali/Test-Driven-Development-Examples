@@ -4,7 +4,7 @@ public class UnameCase {
 
 	public boolean isValidUname(String name)
 	{
-		if(name.contains("#") || name.contains("*") || name.contains("%") || name.contains("&") || name.contains("$"))
+		if(name.contains("#") || name.contains("*") || name.contains("%") || name.contains("&") || name.contains("@"))
 		{
 			return false;
 		}
